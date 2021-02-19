@@ -62,7 +62,10 @@ out/
 target/
 
 ## npm
-/node_modules
+node_modules/
+npm-debug.log
+dist/
+tmp/
 
 ############################
 # Misc
