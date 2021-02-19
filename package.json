@@ -7,10 +7,11 @@
     "watch": "webpack --config webpack/webpack.dev.js --watch",
     "build": "webpack --config webpack/webpack.prod.js",
     "build:dev": "webpack --config webpack/webpack.dev.js",
-    "clean": "rimraf dist",
+    "clean": "rimraf dist chrome-tab-customizer.zip",
     "test": "npx jest",
+    "style": "prettier --write \"src/**/*.{ts,tsx}\"",
     "ci": "yarn install --frozen-lockfile && yarn run clean && yarn run build && yarn run test",
-    "style": "prettier --write \"src/**/*.{ts,tsx}\""
+    "package": "yarn install --frozen-lockfile && yarn run clean && yarn run build && cd dist && zip -r ../chrome-tab-customizer.zip ."
   },
   "author": "lancethomps (https://github.com/lancethomps)",
   "license": "MIT",
