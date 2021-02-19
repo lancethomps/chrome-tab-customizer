@@ -9,9 +9,10 @@
     "build:dev": "webpack --config webpack/webpack.dev.js",
     "clean": "rimraf dist",
     "test": "npx jest",
+    "ci": "yarn run build && yarn run test",
     "style": "prettier --write \"src/**/*.{ts,tsx}\""
   },
-  "author": "",
+  "author": "lancethomps (https://github.com/lancethomps)",
   "license": "MIT",
   "repository": {
     "type": "git",
