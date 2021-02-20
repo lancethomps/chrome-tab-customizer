@@ -16,7 +16,10 @@
     "chrome_style": true
   },
   "background": {
-    "scripts": ["js/vendor.js", "js/background.js"]
+    "scripts": [
+      "js/vendor.js",
+      "js/background.js"
+    ]
   },
   "permissions": [
     "tabs",

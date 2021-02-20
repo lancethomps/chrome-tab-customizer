@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 
-import { strTrim, POP_UP_AS_TAB_EXCEPTIONS_DEFAULT, OPTIONS_DEFAULTS } from "./utils";
+import { OPTIONS_DEFAULTS, POP_UP_AS_TAB_EXCEPTIONS_DEFAULT, strTrim } from "./utils";
 
 const Options = () => {
   const [status, setStatus] = useState<string>();
@@ -155,7 +155,7 @@ const Options = () => {
           wrap="hard"
           value={popUpAsTabExceptions}
           disabled={!popUpAsTab}
-          onChange={(event) => handleExceptionsChange(event.target.value)} />
+          onChange={(event) => handleExceptionsChange(event.target.value)}/>
         <button onClick={handleExceptionsReset} disabled={!popUpAsTab}>{chrome.i18n.getMessage("reset")}</button>
       </div>
       <p>
@@ -168,7 +168,7 @@ const Options = () => {
 
 ReactDOM.render(
   <React.StrictMode>
-    <Options />
+    <Options/>
   </React.StrictMode>,
   document.getElementById("root")
 );

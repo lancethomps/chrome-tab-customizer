@@ -1,98 +1,98 @@
 {
-   "close": {
-      "description": "Option category name for tab closing.",
-      "message": "Activate Tab After Tab Closing"
-   },
-   "close_default": {
-      "description": "Option value for tab closing.",
-      "message": "Chrome default"
-   },
-   "close_first": {
-      "description": "Option value for tab closing.",
-      "message": "First tab"
-   },
-   "close_last": {
-      "description": "Option value for tab closing.",
-      "message": "Last tab"
-   },
-   "close_left": {
-      "description": "Option value for tab closing.",
-      "message": "Left tab"
-   },
-   "close_order": {
-      "description": "Option value for tab closing.",
-      "message": "In activated order"
-   },
-   "close_right": {
-      "description": "Option value for tab closing.",
-      "message": "Right tab"
-   },
-   "description": {
-      "description": "Extension description in manifest.",
-      "message": "Customize tab opening position and closing behavior."
-   },
-   "popUpOptions": {
-      "description": "Option category name for pop-ups.",
-      "message": "Pop Up Options"
-   },
-   "popUpSameWindow": {
-      "description": "Option value for force same window.",
-      "message": "Open pop-up window as new tab"
-   },
-   "popUpSameWindowException": {
-      "description": "Exception list for force same window.",
-      "message": "Pop-up exceptions (regular expression):"
-   },
-   "new": {
-      "description": "Option category name for new tab.",
-      "message": "New Tab"
-   },
-   "new_background": {
-      "description": "Option value for new tab.",
-      "message": "Not activated (background)"
-   },
-   "new_default": {
-      "description": "Option value for new tab.",
-      "message": "Chrome default"
-   },
-   "new_foreground": {
-      "description": "Option value for new tab.",
-      "message": "Activated (foreground)"
-   },
-   "open": {
-      "description": "Option category name for tab opening.",
-      "message": "Tab Opening Position"
-   },
-   "open_default": {
-      "description": "Option value for tab opening.",
-      "message": "Chrome default"
-   },
-   "open_first": {
-      "description": "Option value for tab opening.",
-      "message": "Always first"
-   },
-   "open_last": {
-      "description": "Option value for tab opening.",
-      "message": "Always last"
-   },
-   "open_left": {
-      "description": "Option value for tab opening.",
-      "message": "Left of current tab"
-   },
-   "open_right": {
-      "description": "Option value for tab opening.",
-      "message": "Right of current tab"
-   },
-   "optionsTitle": {
-      "description": "Title for option page.",
-      "message": "Chrome Tab Customizer Options"
-   },
-   "reset": {
-      "description": "Reset button",
-      "message": "Reset Exceptions"
-   },
-   "save": {
-      "description": "Save button",
-      "message": "Save"
-   }
+  "close": {
+    "description": "Option category name for tab closing.",
+    "message": "Activate Tab After Tab Closing"
+  },
+  "close_default": {
+    "description": "Option value for tab closing.",
+    "message": "Chrome default"
+  },
+  "close_first": {
+    "description": "Option value for tab closing.",
+    "message": "First tab"
+  },
+  "close_last": {
+    "description": "Option value for tab closing.",
+    "message": "Last tab"
+  },
+  "close_left": {
+    "description": "Option value for tab closing.",
+    "message": "Left tab"
+  },
+  "close_order": {
+    "description": "Option value for tab closing.",
+    "message": "In activated order"
+  },
+  "close_right": {
+    "description": "Option value for tab closing.",
+    "message": "Right tab"
+  },
+  "description": {
+    "description": "Extension description in manifest.",
+    "message": "Customize tab opening position and closing behavior."
+  },
+  "popUpOptions": {
+    "description": "Option category name for pop-ups.",
+    "message": "Pop Up Options"
+  },
+  "popUpSameWindow": {
+    "description": "Option value for force same window.",
+    "message": "Open pop-up window as new tab"
+  },
+  "popUpSameWindowException": {
+    "description": "Exception list for force same window.",
+    "message": "Pop-up exceptions (regular expression):"
+  },
+  "new": {
+    "description": "Option category name for new tab.",
+    "message": "New Tab"
+  },
+  "new_background": {
+    "description": "Option value for new tab.",
+    "message": "Not activated (background)"
+  },
+  "new_default": {
+    "description": "Option value for new tab.",
+    "message": "Chrome default"
+  },
+  "new_foreground": {
+    "description": "Option value for new tab.",
+    "message": "Activated (foreground)"
+  },
+  "open": {
+    "description": "Option category name for tab opening.",
+    "message": "Tab Opening Position"
+  },
+  "open_default": {
+    "description": "Option value for tab opening.",
+    "message": "Chrome default"
+  },
+  "open_first": {
+    "description": "Option value for tab opening.",
+    "message": "Always first"
+  },
+  "open_last": {
+    "description": "Option value for tab opening.",
+    "message": "Always last"
+  },
+  "open_left": {
+    "description": "Option value for tab opening.",
+    "message": "Left of current tab"
+  },
+  "open_right": {
+    "description": "Option value for tab opening.",
+    "message": "Right of current tab"
+  },
+  "optionsTitle": {
+    "description": "Title for option page.",
+    "message": "Chrome Tab Customizer Options"
+  },
+  "reset": {
+    "description": "Reset button",
+    "message": "Reset Exceptions"
+  },
+  "save": {
+    "description": "Save button",
+    "message": "Save"
+  }
 }
